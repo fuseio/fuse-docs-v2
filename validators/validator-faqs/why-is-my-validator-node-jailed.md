@@ -6,16 +6,16 @@ description: Everything you need to know about jailing and strike counts.
 
 ## **Summary**
 
-* As part of the [FIP11](https://github.com/fuseio/FIPs/blob/master/FIPS/fip-11.md), jailing was introduced when a validator node misbehaved and became offline.&#x20;
+* As part of the [FIP11](https://github.com/fuseio/FIPs/blob/master/FIPS/fip-11.md), jailing was introduced when a validator node misbehaved and became offline.
 * When a validator node is down and not actively participating in the consensus process, it negatively affects the block processing timing and network throughput.
-* [FIP11](https://github.com/fuseio/FIPs/blob/master/FIPS/fip-11.md) introduced the auto-removal of an offline validator node from the pending validator list and added a jailing period depending on the node's offline cycles.&#x20;
+* [FIP11](https://github.com/fuseio/FIPs/blob/master/FIPS/fip-11.md) introduced the auto-removal of an offline validator node from the pending validator list and added a jailing period depending on the node's offline cycles.
 * At cycle's end, the consensus checks to see if a validator has validated at least 70% of their projected number of blocks; if they haven't, they're removed from the list of pending validators, moved to the list of jailed Validators, and given a strike.
 * To calculate the total jail time, add `(endOfTheNewCycle + (numberOfBlocksPerCycle * strike count)).`
 * To prevent operators from failing to keep up with node operation, a strike system was implemented for those who repeatedly break the rule.
-  * 1st strike - 1 cycle min jail time&#x20;
-  * 2nd strike - 2 cycle min jail time&#x20;
-  * 3rd strike - 3 cycle min jail time&#x20;
-  * 4th strike - 4 cycle min jail time&#x20;
+  * 1st strike - 1 cycle min jail time
+  * 2nd strike - 2 cycle min jail time
+  * 3rd strike - 3 cycle min jail time
+  * 4th strike - 4 cycle min jail time
   * 5th (max) strike - 5 cycle min jail time
 * Strikes get reset after 50 cycles of not being jailed.
 * When you are in jail, your validator node will not be visible in the UI but will still be included in the list of old validators.
@@ -29,7 +29,5 @@ description: Everything you need to know about jailing and strike counts.
 ## How to free your validator node
 
 You can refer to the [document](how-to-unjail-your-validator-node.md) to [unjail](how-to-unjail-your-validator-node.md) your validator node.
-
-
 
 {% embed url="https://github.com/fuseio/FIPs/blob/master/FIPS/fip-11.md" %}

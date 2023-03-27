@@ -19,5 +19,4 @@ FIP stands for Fuse Improvement Proposal. A FIP is a design document providing i
 | [FIP-5](https://github.com/fuseio/FIPs/blob/master/FIPS/fip-5.md) | Validators key splitting, validator will have separated keys | Undone                                                 |
 | [FIP-6](https://github.com/fuseio/FIPs/blob/master/FIPS/fip-6.md) | Bridge implementation should be changeable by voting         | Undone                                                 |
 | [FIP-7](https://github.com/fuseio/FIPs/blob/master/FIPS/fip-7.md) | Tiny Ethereum Network transactions on end of cycle           | Undone                                                 |
-| [FIP-8](https://github.com/fuseio/FIPs/blob/master/FIPS/fip-8.md) |  Adjusting Block Rewards by the Validator's Stake            | [Done](https://github.com/fuseio/fuse-network/pull/61) |
-
+| [FIP-8](https://github.com/fuseio/FIPs/blob/master/FIPS/fip-8.md) | Adjusting Block Rewards by the Validator's Stake             | [Done](https://github.com/fuseio/fuse-network/pull/61) |

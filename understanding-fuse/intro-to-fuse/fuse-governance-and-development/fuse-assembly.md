@@ -4,15 +4,15 @@ description: A governance body formed from active members of the Fuse community.
 
 # Fuse Assembly
 
-Fuse Assembly is the first step in transitioning full governance and ownership over the Fuse platform to the community. &#x20;
+Fuse Assembly is the first step in transitioning full governance and ownership over the Fuse platform to the community.
 
 Fuse Assembly consists of five Fuse ecosystem members independent from Fuse Foundation who have shown consistent dedication and commitment to the project and already have a voice within the community.
 
-Fuse Assembly's **current role includes the following**:&#x20;
+Fuse Assembly's **current role includes the following**:
 
 * taking over control of the [Fuse Forum](https://forum.fuse.io/) community discussion platform;
 * implementing the Snapshot voting mechanism on Fuse; and
-* promoting ecosystem growth.&#x20;
+* promoting ecosystem growth.
 
 ## Current Assembly members
 
@@ -26,7 +26,7 @@ _**Council Chairman**_
 
 _**Council Member, Business & Marketing**_
 
-> [Luc](https://www.luclammers.com/) **** is a business development expert, SaaS leader, and startup enthusiast. He has been a committed member of the Fuse ecosystem since mid-2020 and brings a depth of growth-oriented experience to the team.
+> [Luc](https://www.luclammers.com/) \*\*\*\* is a business development expert, SaaS leader, and startup enthusiast. He has been a committed member of the Fuse ecosystem since mid-2020 and brings a depth of growth-oriented experience to the team.
 
 ### **3. Lucas @ Fuse Core** <a href="#2105" id="2105"></a>
 
@@ -50,4 +50,4 @@ _**Council Member, Business & Technology**_
 
 _**Council Member**_
 
-> Maor is a software developer, a long-time active participant of the Fuse community and a co-founder of Flambu.&#x20;
+> Maor is a software developer, a long-time active participant of the Fuse community and a co-founder of Flambu.

@@ -30,11 +30,11 @@ How do we plan to use ZKPs? First, we would like to apply ZK proofs to build a p
 
 In addition to using ZKPs, the Settlement Layer must rely on a new transaction model.
 
-The Fuse Network, just like Ethereum, uses an account model for balance management. This model assigns a balance to each public address and is stored in the ledger state.&#x20;
+The Fuse Network, just like Ethereum, uses an account model for balance management. This model assigns a balance to each public address and is stored in the ledger state.
 
 Account-based models have the advantages of simplicity and ease of use for smart contracts, but their two significant drawbacks are that: 1) it’s harder to scale, and 2) it’s complex to apply ZK proofs to that model.
 
-Instead, we suggest a UTXO model ([Unspent transaction output](https://en.wikipedia.org/wiki/Unspent\_transaction\_output)) similar to the one used in Bitcoin for the Settlement Layer. In this model, each user owns multiple notes with various denominations, and his balance is calculated by the sum of notes he holds. Both the note denominations are encrypted and concealed from the public. This works like cash - I have money in my wallet, but no one can check my wallet without my consent.&#x20;
+Instead, we suggest a UTXO model ([Unspent transaction output](https://en.wikipedia.org/wiki/Unspent\_transaction\_output)) similar to the one used in Bitcoin for the Settlement Layer. In this model, each user owns multiple notes with various denominations, and his balance is calculated by the sum of notes he holds. Both the note denominations are encrypted and concealed from the public. This works like cash - I have money in my wallet, but no one can check my wallet without my consent.
 
 ## Scalability
 
@@ -42,9 +42,9 @@ The following options are considered with a view to improving the scalability of
 
 ### Storing ZKPs in a dedicated Data Availability layer
 
-Since ZK proofs for batching transactions can be long, the Settlement layer will bloat by their size. We aim to keep the Settlement layer decentralized and run by the community, so we expect it to be a problem. To cope with this, they submit proofs to the Settlement layer instead of introducing them to the Data Availability layer.&#x20;
+Since ZK proofs for batching transactions can be long, the Settlement layer will bloat by their size. We aim to keep the Settlement layer decentralized and run by the community, so we expect it to be a problem. To cope with this, they submit proofs to the Settlement layer instead of introducing them to the Data Availability layer.
 
-As a result, the Power Validators will run a trustable data availability layer. Eventually, to withdraw funds from the execution layer, behind the scenes, the user will need to fetch the proof from the data availability layer and submit it as an argument to the bridge contract.&#x20;
+As a result, the Power Validators will run a trustable data availability layer. Eventually, to withdraw funds from the execution layer, behind the scenes, the user will need to fetch the proof from the data availability layer and submit it as an argument to the bridge contract.
 
 ### Parallelization
 
@@ -52,26 +52,26 @@ The UXTO model is easier to run in parallel, using multiple threads of the insta
 
 ## Recurring payments and more
 
-Recurring payments are a vital component of any payment infrastructure as they facilitate the creation of subscription models where users pay a monthly fee for a service. In the traditional payment ecosystem, payments are executed on a pull basis, implementing recurring payments effortlessly.&#x20;
+Recurring payments are a vital component of any payment infrastructure as they facilitate the creation of subscription models where users pay a monthly fee for a service. In the traditional payment ecosystem, payments are executed on a pull basis, implementing recurring payments effortlessly.
 
 However, in the blockchain environment, recurring payments cannot be achieved natively due to the push payments nature of blockchain transactions, where users need to authorize transactions actively.
 
 Although this push payments feature of blockchain can be advantageous as it prevents users from continuously paying for services they don't use, there are still instances where users would like to pay continuously for a service without confirming payments each month.
 
-To address the challenge of implementing recurring payments in a push-based blockchain payment infrastructure. One promising solution is to employ smart contracts that define specific rules allowing payees to pull payments frequently.&#x20;
+To address the challenge of implementing recurring payments in a push-based blockchain payment infrastructure. One promising solution is to employ smart contracts that define specific rules allowing payees to pull payments frequently.
 
 Smart wallet architecture can facilitate this, enabling payers to manage a list of recurring payments, each with unique logic.
 
 Under this system, payees can claim the funds every month, similar to the vesting process, with the vital distinction being that the user's smart wallet serves as the vesting contract. This approach offers a reliable and secure method for enabling recurring payments in a push-based blockchain payment ecosystem.
 
-Our payment infrastructure can support many use cases beyond recurring payments. We are thrilled to explore the limitless possibilities for leveraging blockchain technology to revolutionize the payment industry.&#x20;
+Our payment infrastructure can support many use cases beyond recurring payments. We are thrilled to explore the limitless possibilities for leveraging blockchain technology to revolutionize the payment industry.
 
 Here are some further examples of the use cases that we envision our infrastructure enabling:
 
-1. Split Payments - Paying multiple parties at once - e.g., in a marketplace, paying the sellers and the service fees of operators of marketplaces at once&#x20;
+1. Split Payments - Paying multiple parties at once - e.g., in a marketplace, paying the sellers and the service fees of operators of marketplaces at once
 2. Recurring Payments - enables subscription models and automated investing such as dollar cost averaging (DCA).
-3. Social Recovery - The user's wallet can be recovered by its operator, friends, or any third party.&#x20;
-4. Payment Links - Paying and receiving payments can be simplified using SCWs.&#x20;
+3. Social Recovery - The user's wallet can be recovered by its operator, friends, or any third party.
+4. Payment Links - Paying and receiving payments can be simplified using SCWs.
 5. Payment Streaming - Continuous Micropayments like Superfluid - e.g., this is useful for streaming services (pay as you watch/listen, or ride-sharing services - pay as you go).
 6. Soulbound token (SBT) integrations - Issue an SBT to the verified users. For instance, holding an SBT could give a user the right to claim an ENS name.
 
@@ -85,4 +85,4 @@ When a user wants to pay a merchant, the following steps occur
 * The transactions are confirmed by the validators and added to blocks.
 * The merchants receive the funds in their wallets.
 
-\
+\\

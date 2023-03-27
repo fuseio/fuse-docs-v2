@@ -1,15 +1,14 @@
 # How to become a validator
 
-The Fuse network is operated by validator nodes that are hosted by network participants from all around the world. The network allows entrepreneurs to easily plug payments into their products and onboard their users to a platform that allows them to pay, transact and access financial services in their favorite currency.&#x20;
+The Fuse network is operated by validator nodes that are hosted by network participants from all around the world. The network allows entrepreneurs to easily plug payments into their products and onboard their users to a platform that allows them to pay, transact and access financial services in their favorite currency.
 
 All the access to the network is public, and all the code is open source so that it can be customized and localized to their needs. Any community that lives on the Fuse chain needs to pay a small fee to the network's validators to validate its transactions in the community.
 
-The more communities and users conducting transactions, the more validators will earn as a reward for approving the transaction. This allows the network to grow organically as more usage in the system and more network participants means rewards grow.\
-
+The more communities and users conducting transactions, the more validators will earn as a reward for approving the transaction. This allows the network to grow organically as more usage in the system and more network participants means rewards grow.\\
 
 ### What does it mean to be a validator?
 
-[Any entity holding the Fuse token can run a node](broken-reference) that approves transactions in the network and, in doing so, receive rewards in the form of Fuse tokens (FUSE).
+Any entity holding the Fuse token can run a node that approves transactions in the network and, in doing so, receive rewards in the form of Fuse tokens (FUSE).
 
 Validators are running special software that holds a copy of the Fuse blockchain and validates transactions in the network.
 
@@ -17,13 +16,13 @@ Every 5 seconds, the network groups the latest transactions broadcasted to the s
 
 The validators receive a block reward (X per block) for this work. Yearly inflation of 5% is distributed between all validators (the block reward is updated to accommodate this functionality).
 
-Validators contribute their computer resources to maintain the network and need technical knowledge in hosting this kind of software (see [Running a validator node](broken-reference)) and [participate in the network governance through voting](broken-reference).
+Validators contribute their computer resources to maintain the network and need technical knowledge in hosting this kind of software (see [Running a validator node](getting-started-as-a-validator-on-fuse-mainnet.md)) and [participate in the network governance through voting](../../understanding-fuse/intro-to-fuse/fuse-governance-and-development/).
 
 Validators are the guardians of the network and are in charge of not only maintaining it but also steering it in its future through the governance mechanism that allows any holder of Fuse tokens to vote on important decisions and upgrades to the network in its development and resource allocation.
 
 ### Who should become a validator?
 
-**Companies that build on the network**&#x20;
+**Companies that build on the network**
 
 The Fuse open-source stack allows many companies to collaborate on the same code base. Allowing any company interested in using the Fuse services and code to join as a stakeholder is a new innovative approach to collaboration and partnerships.
 
@@ -39,18 +38,18 @@ Any service provider can become a stakeholder in the network, and already today,
 
 **Community operators on Fuse**
 
-Community operators are the foremost stakeholders in the network and can upgrade themselves to a validator and thus provide better access to their clients.&#x20;
+Community operators are the foremost stakeholders in the network and can upgrade themselves to a validator and thus provide better access to their clients.
 
 ### Who can become a validator (Technical requirements)
 
-* See [_Running a validator node_](broken-reference)__
+* See [_Running a validator node_](getting-started-as-a-validator-on-fuse-mainnet.md)\_\_
 
 ### Who shouldn’t become a validator (and what can he still do)
 
 * **Non-technical users** - Running a node requires technical background in blockchain and web hosting. It’s not very complicated but also not trivial or basic.
 * **Simple holders** - We are looking for validators who are invested in the future of the network and are looking to take an active part. The DPoS (Delegated Proof of Stake) mechanism was born to do this.
 
-[You can delegate your Fuse token to a validator](broken-reference) of your choosing. Not everybody that wants to earn rewards needs to be a validator! Any token holder can delegate their Fuse token to a validator to earn rewards through the validator.
+[You can delegate your Fuse token to a validator](../participating-in-network-consensus/stake-delegate-and-withdraw.md) of your choosing. Not everybody that wants to earn rewards needs to be a validator! Any token holder can delegate their Fuse token to a validator to earn rewards through the validator.
 
 ### How to become a validator?
 

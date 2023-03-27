@@ -2,21 +2,21 @@
 
 #### Fuse Labs
 
-Public endpoint: [https://rpc.fuse.io/](https://rpc.fuse.io/)​&#x20;
+Public endpoint: [https://rpc.fuse.io/](https://rpc.fuse.io/)​
 
 Advised to use for only for the end-users and wallets such Metamask.
 
-Archive node RPC:  [https://explorer-node.fuse.io/](https://explorer-node.fuse.io/)
+Archive node RPC: [https://explorer-node.fuse.io/](https://explorer-node.fuse.io/)
 
 #### Chainstack
 
-Public endpoint:  [https://fuse-mainnet.chainstacklabs.com](https://fuse-mainnet.chainstacklabs.com)
+Public endpoint: [https://fuse-mainnet.chainstacklabs.com](https://fuse-mainnet.chainstacklabs.com)
 
 You can learn more on [https://chainstack.com/](https://chainstack.com/)
 
 **Blockspaces**
 
-Public endpoint:  [https://web3endpoints.com/fuse-mainnet](https://web3endpoints.com/fuse-mainnet)
+Public endpoint: [https://web3endpoints.com/fuse-mainnet](https://web3endpoints.com/fuse-mainnet)
 
 You can learn more on [https://www.blockspaces.com/web3-infrastructure](https://www.blockspaces.com/web3-infrastructure)
 

@@ -16,7 +16,7 @@ To open a new vote, a validator needs to call the \`newBallot\` function on the 
 * proposedValue - address of the new implementation deployed for the relevant contract type
 * description - text description which should contain the reason/change introduced in the ballot
 
-![new ballot](<../../.gitbook/assets/image (13).png>)
+![new ballot](<../../.gitbook/assets/image (25).png>)
 
 ## Check ballot info
 
@@ -25,7 +25,7 @@ Everyone can check all the ballots created using the \`getBallotInfo\` function.
 * id - the ballot id
 * key - account address
 
-![getBallotInfo](<../../.gitbook/assets/image (25).png>)
+![getBallotInfo](<../../.gitbook/assets/image (20).png>)
 
 ## Vote
 
@@ -38,9 +38,7 @@ Voting is done by calling the \`vote\` function, which receives two params:
 * id - the ballot id
 * choice - 1 is accept, 2 is reject
 
-![vote](<../../.gitbook/assets/image (10).png>)
-
-
+![vote](<../../.gitbook/assets/image (3).png>)
 
 Some other useful functions of the [voting contract](https://explorer.fuse.io/address/0x4c889f137232E827c00710752E86840805A70484) are:
 

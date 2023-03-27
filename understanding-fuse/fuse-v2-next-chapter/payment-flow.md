@@ -12,9 +12,8 @@ When a user wants to pay a merchant, the following steps take place:
 
 ### The services to make it work
 
-* Client application - the application in which the SDK is utilized to make the abovementioned payment flow possible. The client application is also responsible for utilizing other solutions for authenticating users and securing their private keys to sign and authorize the transaction requests off-chain on the client side. Client applications can also utilize or implement extra features like payment links to pay for products and services online or notify the end-users with push notifications when they receive payments.&#x20;
+* Client application - the application in which the SDK is utilized to make the abovementioned payment flow possible. The client application is also responsible for utilizing other solutions for authenticating users and securing their private keys to sign and authorize the transaction requests off-chain on the client side. Client applications can also utilize or implement extra features like payment links to pay for products and services online or notify the end-users with push notifications when they receive payments.
 * APIs/SDK - enables creating and managing wallets for the users and the merchants, sending transactions to the blockchain through the relayers, and notifying the client application about the statuses of the transactions with events.
-* Relayer - receiving transaction requests, verifying them, and submitting them to the blockchain by covering the gas fees.&#x20;
+* Relayer - receiving transaction requests, verifying them, and submitting them to the blockchain by covering the gas fees.
 
 For the use of all those services, operators are paying the Power Validators.
-

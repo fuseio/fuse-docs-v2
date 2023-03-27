@@ -25,11 +25,9 @@ Note that only one validator can make this call successfully, so the 1st one suc
 5. The bridge oracle fuseoracle-collected-sigantures is responsible for listening to the CollectedSignature events, and all validators should get it. The validator responsible for transmitting the transaction to the mainnet is the last one to submit the signature in section 7, and its address is part of the event details. Hence, other validator oracles “know” it’s not their turn and skip the event. If a validator is down or out of money or infura is dead - the next one in line (in the ValidatorSet) is responsible for transmitting to the mainnet.
 6. Eventually, on the mainnet, we are supposed to see two transactions to the ForeignBridgeNativeToErc each cycle - one updating the new validators and one minting the fuse tokens created during this cycle on Fuse.
 
-Note that if the new validator sets transactions to fail on the mainnet, there’s a chance the minting will fail as well because before transmitting, it checks if all signatures are valid.&#x20;
+Note that if the new validator sets transactions to fail on the mainnet, there’s a chance the minting will fail as well because before transmitting, it checks if all signatures are valid.
 
 There can be a situation where new validators were added on a cycle and were fast enough to submit their signatures on fuse end-of-cycle transactions but weren’t updated on mainnet due to failure of the 1st transactions so that the 2nd one will contain “invalid” signatures from the mainnet perspective.
-
-
 
 Example of a successful flow (from 7/6/2020)
 
@@ -37,4 +35,3 @@ Example of a successful flow (from 7/6/2020)
 2. BlockReward.emitRewardedOnCycle transaction on fuse - [https://explorer.fuse.io/tx/0x76ae7870209c878c1eb120ecde9704902d5c823d67df3ecd55e340aab89e97fe](https://explorer.fuse.io/tx/0x76ae7870209c878c1eb120ecde9704902d5c823d67df3ecd55e340aab89e97fe)
 3. Successful validators update transactions on mainnet - [https://etherscan.io/tx/0xf43b2abebd64537dbd7d834c9ac7a42ce8a925da5cb5278002ce0687187c8882](https://etherscan.io/tx/0xf43b2abebd64537dbd7d834c9ac7a42ce8a925da5cb5278002ce0687187c8882)
 4. Successful fuse minting transaction on mainnet - [https://etherscan.io/tx/0x2bd70ecbff6e84c18306701eb380e558a7340fab61aadf1af7690021aeeef5ce](https://etherscan.io/tx/0x2bd70ecbff6e84c18306701eb380e558a7340fab61aadf1af7690021aeeef5ce)
-

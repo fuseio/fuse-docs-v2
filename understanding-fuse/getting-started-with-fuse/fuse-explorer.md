@@ -4,7 +4,7 @@ description: Fuse Blockscout Explorer
 
 # Fuse Explorer
 
-[Fuse Explorer](https://explorer.fuse.io/) is a full-featured block explorer for the Fuse Network and many other chains. Fuse Explorer is open-source software and is based on Blockout explorer.&#x20;
+[Fuse Explorer](https://explorer.fuse.io/) is a full-featured block explorer for the Fuse Network and many other chains. Fuse Explorer is open-source software and is based on Blockout explorer.
 
 About Blockscout:
 
@@ -17,7 +17,7 @@ About Blockscout:
 * The ability to read and authenticate smart contracts
 * You can easily tag and keep tabs on your transactions by using the tools under "My Account."
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/image (28).png>)
 
 ### Fuse Spark
 

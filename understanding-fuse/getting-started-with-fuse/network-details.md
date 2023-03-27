@@ -6,7 +6,7 @@
 | ---------- | ----------- | --------- | ------------ | ---------- |
 | 20,000,000 | 5 seconds   | 10 GWei   | FUSE         | 122        |
 
-**RPC**: [https://rpc.fuse.io/](https://rpc.fuse.io/)​&#x20;
+**RPC**: [https://rpc.fuse.io/](https://rpc.fuse.io/)​
 
 **Chain ID**: 122
 
@@ -22,11 +22,11 @@
 | ---------- | ----------- | --------- | ------------ | ---------- |
 | 20,000,000 | 5 seconds   | 10 GWei   | FUSE         | 123        |
 
-**RPC**: [https://rpc.fusespark.io](https://rpc.fusespark.io)&#x20;
+**RPC**: [https://rpc.fusespark.io](https://rpc.fusespark.io)
 
 **Chain ID:** 123
 
-**Testnet explorer**: [https://explorer.fusespark.io](https://explorer.fusespark.io)&#x20;
+**Testnet explorer**: [https://explorer.fusespark.io](https://explorer.fusespark.io)
 
 **Symbol**: Fuse
 

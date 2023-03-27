@@ -1,6 +1,6 @@
 # Stake, Delegate and Withdraw
 
-The requirement to become a Fuse chain validator is having a stake of at least 100,000 FUSE tokens.&#x20;
+The requirement to become a Fuse chain validator is having a stake of at least 100,000 FUSE tokens.
 
 The stake amount is the sum of the address's staked and delegated Fuse tokens. This guide walks through the process of using MEW (MyEtherWallet.com) in the Fuse network Roadmap - Those functionalities will be built into our Studio and will not require any technical knowledge in the future.
 

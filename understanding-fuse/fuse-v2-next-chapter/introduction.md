@@ -1,8 +1,8 @@
 # Introduction
 
-Until today, the development of Fuse as a payment-focused blockchain platform has primarily relied on the infrastructure (middleware stack) created by Fuse Labs.&#x20;
+Until today, the development of Fuse as a payment-focused blockchain platform has primarily relied on the infrastructure (middleware stack) created by Fuse Labs.
 
-While that was sufficient to carry us quite far, priming Fuse for mass business and consumer adoption requires that the infrastructure on top of the Fuse Network blockchain become more robust and decentralized.&#x20;
+While that was sufficient to carry us quite far, priming Fuse for mass business and consumer adoption requires that the infrastructure on top of the Fuse Network blockchain become more robust and decentralized.
 
 The Fuse Network blockchain must also change and offload most transactions to the execution layer. Hence, the transition to Fuse V2 will involve the following main components:
 
